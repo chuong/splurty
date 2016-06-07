@@ -54,4 +54,8 @@ Splurty::Application.routes.draw do
   #     resources :products
   #   end
   root 'quotes#index'
+
+  resources :quotes
+  # the priority is based upon order of created -> highest priority.
+  # More comments here .....
 end
